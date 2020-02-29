@@ -37,7 +37,7 @@ Wait for the process to download and install all the required components and dep
 
 That's it. Our loopon-exercise application is installed and configured. Open the browser enter the base path and project url 
 
-http://hostname:port/loopon-exercise
+http://hostname:port/loopon-exercise/src/index.php
 
 This page shows the output by calling the findSubTextOccurrences($textToSearch, $subtext) from Our custom StringHelper class.
 
@@ -53,7 +53,7 @@ Navigate into project root directory and Execute below command to run the tests
 
 * **src/index.php** In this file, We're using the the above function and showing the output.
 
-* **test** Folder contains the files for all the test cases
+* **tests** Folder contains the files for all the test cases
 
 * **vendor** - Contains all the composer dependencies
 
